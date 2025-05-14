@@ -4,7 +4,7 @@ import Avatar from "@mui/material/Avatar";
 import Box from "@mui/material/Box";
 import styles from "./App.styles";
 import illustrationArticle from "./assets/images/illustration-article.svg";
-import avatarImage from "./assets/images/image-avatar.webp"; // Import the image
+import avatarImage from "./assets/images/image-avatar.webp";
 
 function App() {
   return (
@@ -28,7 +28,9 @@ function App() {
       </Box>
       <Box component="footer" sx={styles.footer}>
         <Avatar alt="Greg Hooper" src={avatarImage} />
-        <Typography sx={styles.authorName}>Greg Hooper</Typography>
+        <Typography sx={styles.authorName} variant="caption">
+          Greg Hooper
+        </Typography>
       </Box>
     </Box>
   );

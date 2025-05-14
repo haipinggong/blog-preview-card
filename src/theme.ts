@@ -57,12 +57,32 @@ theme = createTheme(theme, {
     h1: {
       fontWeight: theme.typography.fontWeightExtraBold,
       fontSize: "1.25rem",
+      [theme.breakpoints.up("sm")]: {
+        fontSize: "1.5rem",
+      },
     },
     body1: {
       fontSize: "0.875rem",
+      [theme.breakpoints.up("sm")]: {
+        fontSize: "1rem",
+      },
     },
     body2: {
       fontSize: "0.75rem",
+      [theme.breakpoints.up("sm")]: {
+        fontSize: "0.875rem",
+      },
+    },
+    button: {
+      textTransform: "none",
+      fontWeight: theme.typography.fontWeightExtraBold,
+      fontSize: "0.75rem",
+      [theme.breakpoints.up("sm")]: {
+        fontSize: "0.875rem",
+      },
+    },
+    caption: {
+      fontSize: "0.875rem",
     },
   },
 });

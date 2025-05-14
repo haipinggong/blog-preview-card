@@ -15,21 +15,21 @@ export const styles: StyleProps = {
     border: `1px solid ${theme.palette.grey[950]}`,
     maxWidth: "20.4375rem",
     boxShadow: `8px 8px 0px ${theme.palette.common.black}`,
+    [theme.breakpoints.up("sm")]: {
+      maxWidth: "24rem",
+    },
   }),
   image: {
     borderRadius: "10px",
   },
   category: (theme) => ({
-    textTransform: "none",
-    fontSize: theme.typography.body2.fontSize,
-    fontWeight: theme.typography.fontWeightExtraBold,
     padding: theme.spacing(0.5, 1.5, 0.5, 1.5),
     alignSelf: "flex-start",
   }),
   content: {
     display: "flex",
     flexDirection: "column",
-    gap: 1,
+    gap: 1.5,
   },
   description: (theme) => ({
     color: theme.palette.grey[500],
