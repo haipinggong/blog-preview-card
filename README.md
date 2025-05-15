@@ -26,4 +26,4 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/haipinggong/blog-preview-card](https://github.com/haipinggong/blog-preview-card)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://blog-preview-card-seven-blue.vercel.app/](https://blog-preview-card-seven-blue.vercel.app/)
