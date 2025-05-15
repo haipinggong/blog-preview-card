@@ -8,7 +8,7 @@ import avatarImage from "./assets/images/image-avatar.webp";
 
 function App() {
   return (
-    <Box sx={styles.card}>
+    <Box sx={styles.card} component="main">
       <Box
         component="img"
         src={illustrationArticle}
@@ -28,7 +28,7 @@ function App() {
           content, and presentation.
         </Typography>
       </Box>
-      <Box component="footer" sx={styles.footer}>
+      <Box sx={styles.footer}>
         <Avatar alt="Greg Hooper" src={avatarImage} />
         <Typography sx={styles.authorName} variant="caption">
           Greg Hooper
