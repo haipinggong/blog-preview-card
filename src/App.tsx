@@ -20,7 +20,9 @@ function App() {
           Learning
         </Button>
         <Typography variant="body2">Published 21 Dec 2023</Typography>
-        <Typography variant="h1">HTML & CSS foundations</Typography>
+        <Typography variant="h1" sx={styles.title}>
+          HTML & CSS foundations
+        </Typography>
         <Typography sx={styles.description}>
           These languages are the backbone of every website, defining structure,
           content, and presentation.

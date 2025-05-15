@@ -31,6 +31,12 @@ export const styles: StyleProps = {
     flexDirection: "column",
     gap: 1.5,
   },
+  title: (theme) => ({
+    "&:hover": {
+      color: theme.palette.primary.main,
+      cursor: "pointer",
+    },
+  }),
   description: (theme) => ({
     color: theme.palette.grey[500],
   }),
