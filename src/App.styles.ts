@@ -5,14 +5,21 @@ interface StyleProps {
 }
 
 export const styles: StyleProps = {
+  wrapper: {
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    minHeight: "100vh",
+  },
   card: (theme) => ({
     display: "flex",
     flexDirection: "column",
-    padding: 3,
-    gap: 3,
+    padding: theme.spacing(3),
+    gap: theme.spacing(3),
     backgroundColor: theme.palette.background.paper,
-    borderRadius: "20px",
+    borderRadius: 5,
     border: `1px solid ${theme.palette.grey[950]}`,
+    width: "100%",
     maxWidth: "20.4375rem",
     boxShadow: `8px 8px 0px ${theme.palette.common.black}`,
     [theme.breakpoints.up("sm")]: {
